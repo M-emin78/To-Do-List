@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do-List</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="fovicon" href="images/checked.png"> <!--Tİkon Ekledik -->
+</head>
+
+<body>
+    <!--Container Start-->
+    <div class="container">
+        <div class="todo-app">
+            <h2>To-Do List <img src="images/icon.png" alt=""></h2>
+            <div class="row">
+                <input type=" text" id="input-box" placeholder="Görev Ekleyin">
+                <button onclick="addTask()">Ekle</button>
+            </div>
+            <ul id="list-container">
+                <!-- <li class="checked">Görev 1</li>
+                <li>Görev 2</li>
+                <li>Görev 3</li> -->
+            </ul>
+        </div>
+    </div>
+    <!--Container End-->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
